@@ -97,6 +97,7 @@ public class Transaction
         }
 
         System.out.println("***************************");
+        System.out.println("    Quantity: " + getNumberOfItems());
         System.out.println("       Total: " + getSubtotal());
     }
 
